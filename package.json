@@ -1,0 +1,18 @@
+{
+  "name": "browser2sp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webServer.js",
+  "scripts": {
+    "web": "nodemon webServer.js",
+    "tcp": "nodemon tcpServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.19"
+  }
+}
